@@ -1,0 +1,111 @@
+header {
+  padding: 10px 30px;
+  background-image: url("https://i.pinimg.com/564x/19/f4/d5/19f4d572f33055d48a2e8f66456267b9.jpg");
+  
+  height: 100%;
+/*   top: 10px;
+  bottom: 0; */
+  background-size: 350px, cover;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  position: fixed;
+  left: 10px;
+  width: 300px;
+}
+
+h1 {
+  position: absolute;
+  bottom: 10px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  color: #222;
+  margin-top: 65%;
+}
+
+h1 b {
+  font-size: 60px;
+  display: block;
+}
+
+.content {
+  margin-left: 400px;
+}
+
+blockquote {
+  background-color: #222;
+  width: 25%;
+  min-width: 250px;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 45px;
+  padding: 50px 30px;
+  margin: 50px 0;
+  position: relative;
+  flex-shrink: 0;
+  align-self: flex-start;
+}
+
+blockquote::before {
+  content: '“';
+  font-size: 120px;
+  text-align: left;
+  left: 0;
+  top: -20px;
+  position: absolute;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+}
+
+/* main {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  align: center;
+} */
+
+summary {
+  font-size: 20px;
+  margin: 10px 0 0;
+}
+
+article {
+  margin: 100px 50px 0;
+}
+
+ul {
+ list-style-type: square; 
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 25px;
+  margin: 40px 0 0;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+div {
+  display: flex;
+}
