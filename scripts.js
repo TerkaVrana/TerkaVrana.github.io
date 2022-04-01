@@ -1,5 +1,5 @@
 console.log("JavaScript is working!");
-let colors =  ["orange", "blue", "green", "purple"];
+let colors = ["orange", "blue", "green", "purple"];
 let post = {
     title: "My post",
     description: "My First Post, awesome",
@@ -27,7 +27,7 @@ if (age >= 18) {
 }
 
 for (let i = 0; i < 10; i++) {
-    console.log (i);
+    console.log(i);
 }
 
 console.log(colors);
@@ -35,7 +35,7 @@ console.log(colors);
 
 let myFunction = x => {
     console.log(x)
-} 
+}
 
 colors.forEach(color => {
     console.log(color);
@@ -48,7 +48,7 @@ colors.forEach(color => {
 // It lets you define a condition which your code depends on
 
 let forthA = 7;
-if (forthA < 5){
+if (forthA < 5) {
     console.log(forthA / 2);
 } else {
     console.log(forthA * 2);
@@ -63,7 +63,7 @@ if (forthA < 5){
 // And you do this until you have books to move. For example if you have 10 books:
 
 let bookCount = 10;
-for (let i=0; i< bookCount+1; i++) {
+for (let i = 0; i < bookCount + 1; i++) {
     console.log(i);
 }
 // Print the even numbers between 0 and 20.?!
@@ -71,12 +71,12 @@ for (let i=0; i< bookCount+1; i++) {
 let payBill = (amount, beneficiary) => {
     return amount + beneficiary;
     // transfer amount money to the beneficiary
-  };
+};
 
-  
+
 let amountX = 100;
 let beneficiaryX = 5;
-console.log("pay bill", payBill(amountX,8));
+console.log("pay bill", payBill(amountX, 8));
 
 //   Within functions (key word: =>) you can use the return keyword which will give back the function's output. 
 //   For example if you want to add 2 numbers, then you will need the result as well:
@@ -84,15 +84,15 @@ console.log("pay bill", payBill(amountX,8));
 let add = (a, b) => {
     let c = a + b;
     return c;  // the return keyword will give you back the result
-  };
-  
-  console.log(add(1, 2)) // will print 3
+};
+
+console.log(add(1, 2)) // will print 3
 
 
 // Use your previous for loops (key word: for) and create a function which print the first N numbers.
 let f = (N) => {
     console.log("print numbers till", N)
-    for (let j=1; j <= N; j++) {
+    for (let j = 1; j <= N; j++) {
         console.log(j);
     };
 }
@@ -122,7 +122,7 @@ console.log(getGreetingTo('Mark'));
 
 let Array = [0, 3, 6, 7, 9];
 let printValues = (Array) => {
-    for (let k=0; k<Array.length; k++) {
+    for (let k = 0; k < Array.length; k++) {
         console.log(Array[k]);
     }
 };
@@ -136,8 +136,8 @@ let myNumbers = [10, 20, 30, 50, 12];
 
 // here we say, we want to do something with each item
 myNumbers.forEach((number) => {
-  // within the function I can tell what I want to do with the items
-  console.log(number*2);
+    // within the function I can tell what I want to do with the items
+    console.log(number * 2);
 });
 
 
