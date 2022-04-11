@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
 }
 
 header {
@@ -7,7 +9,7 @@ header {
     height: 800px;
     background-color: #cccccc;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     margin: 0 0 100px;
 }
 
@@ -15,30 +17,35 @@ header img {
     width: 100%;
 }
 
+/* Jak se do pozaji obrazky, co nejsou online */
 .project001 header img {
-    background-image: url(https://i.pinimg.com/564x/0c/f7/b5/0cf7b595680ea72494b6fc321a61b5fb.jpg);
+    background-image: url(assets/01n-bar-viz.png);
 }
 
 .project002 header img {
-    background-image: url(https://i.pinimg.com/564x/0c/f7/b5/0cf7b595680ea72494b6fc321a61b5fb.jpg);
+    background-image: url(assets/02i-viz.png);
+}
+
+h1 {
+    position: absolute;
+    bottom: 10px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    color: #222;
+    margin-top: 65%;
 }
 
 h2 {
-    font-family: 'Josefin Sans', sans-serif;
-    color: #222;
     text-transform: uppercase;
     font-size: 25px;
     margin: 40px 0 10px;
 }
 
 h3 {
-    font-family: 'Josefin Sans', sans-serif;
-    color: #222;
     font-size: 25px;
 }
 
 p {
-    font-family: 'Josefin Sans', sans-serif;
     /* font-family: 'Oswald', sans-serif; */
 }
 
