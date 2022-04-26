@@ -17,7 +17,7 @@ setImage();
 
 let timeout;
 function myFunction() {
-    timeout = setInterval(next, 3000);
+    timeout = setInterval(next, 300000);
 }
 myFunction();
 
